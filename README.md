@@ -1,6 +1,6 @@
-# SASS Placeholders mixin
+# SASS Placeholder mixin
 
-An easy to use mixin for generating ::placeholder CSS pseudo-element.
+An easy to use mixin for generating ::placeholder CSS pseudo-elements.
 
 <h3>Usage</h3>
 
