@@ -1,0 +1,30 @@
+///
+/// SASS Placeholder mixin
+///
+/// @author andreimocanu
+///
+/// @example
+///   .selector {
+///     @include placeholder(){
+///       @content
+///     }
+///   }
+///
+
+@mixin placeholder() {
+    &::placeholder {
+        @content;
+    }
+    &::-webkit-input-placeholder {
+        @content;
+    }
+    &:-ms-input-placeholder {
+        @content;
+    }
+    &::-moz-placeholder {
+        @content;
+    }
+    &:-moz-placeholder {
+        @content;
+    }
+}
